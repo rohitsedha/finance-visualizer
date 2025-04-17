@@ -1,5 +1,6 @@
 "use client";
-import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer } from 'recharts';
+
 
 export default function MonthlyChart({ data }: { data: any[] }) {
   return (
